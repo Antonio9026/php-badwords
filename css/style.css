@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragrafo_container{
+    display: inline-grid;
+    width: 600px;
+    height: 60px;
+    margin: 40px 0;
+    background-color: blue;
+}
+
+label{
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.censura-container{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 60px;
+    margin: 40px 0;
+    background-color: red;
+}
+
+.button-container{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+button{
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: darkred;
+    font-size: 30px;
+
+}
+
+
+
+
+/* filter file  */
+
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.parag-filter{
+    height: 50px;
+    margin-bottom: 40px;
+    background-color: blue;
+}
+
+.censored-filter{
+    height: 50px;
+    background-color: red;
+}
