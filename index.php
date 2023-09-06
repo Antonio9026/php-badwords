@@ -10,8 +10,10 @@
 <body>
     <form action="filter.php" method="POST">
      
-            <label for="filter">Word</label>
-            <input type="text" name="filter">
+            <label for="paragrafo">Paragrafo</label>
+            <input type="text" name="paragrafo">
+            <label for="censura">parola da censurare</label>
+            <input type="text" name="censura">
        
         <button type="submit">Invia</button>
     </form>

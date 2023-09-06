@@ -1,9 +1,15 @@
 <?php
 // echo isset($_POST["word"]) ? $_POST["word"] : "no words";
-$word = $_POST["filter"];
-$wordLenght = strlen($word);
+$paragrafo= $_POST["paragrafo"];
+$paragrafoLenght = strlen($paragrafo);
+
+$censoredWord = $_POST["censura"];
+$censoredLenght = strlen($censoredWord);
+$newCens = str_replace($censoredWord,"***", $paragrafo);
+
 
 ?>
 
-<h1><?php echo $word ?></h1>
-<h1><?php echo strlen($word) ?></h1>
+<h1><?php echo $paragrafo . " " . $paragrafoLenght  ?></h1>
+
+<h1><?php echo $newCens . " " . $censoredLenght ?></h1>
